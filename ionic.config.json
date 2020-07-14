@@ -1,5 +1,7 @@
 {
   "name": "Pizza",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

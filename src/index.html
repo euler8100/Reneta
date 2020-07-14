@@ -12,14 +12,123 @@
   <meta name="format-detection" content="telephone=no" />
   <meta name="msapplication-tap-highlight" content="no" />
 
-  <link rel="icon" type="image/png" href="assets/icon/favicon.png" />
+  <link rel="icon" type="image/png" href="assets/icon/logo.ico" />
+
+  <style>
+  
+  .cs-loader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+
+  .cs-loader-inner {
+    transform: translateY(-50%);
+    top: 70%;
+    left: calc(100px);
+    position: absolute;
+    width: calc(100% - 200px);
+    color: #FFF;
+    text-align: center;
+  }
+
+  .cs-loader-inner label {
+    font-size: 20px;
+    opacity: 0;
+    display:inline-block;
+  }
+
+  @keyframes lol {
+    0% {
+      opacity: 0;
+      transform: translateX(-300px);
+    }
+    33% {
+      opacity: 1;
+      transform: translateX(0px);
+    }
+    66% {
+      opacity: 1;
+      transform: translateX(0px);
+    }
+    100% {
+      opacity: 0;
+      transform: translateX(300px);
+    }
+  }
+
+  @-webkit-keyframes lol {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateX(-300px);
+    }
+    33% {
+      opacity: 1;
+      -webkit-transform: translateX(0px);
+    }
+    66% {
+      opacity: 1;
+      -webkit-transform: translateX(0px);
+    }
+    100% {
+      opacity: 0;
+      -webkit-transform: translateX(300px);
+    }
+  }
+
+  .cs-loader-inner label:nth-child(6) {
+    -webkit-animation: lol 3s infinite ease-in-out;
+    animation: lol 3s infinite ease-in-out;
+  }
+
+  .cs-loader-inner label:nth-child(5) {
+    -webkit-animation: lol 3s 100ms infinite ease-in-out;
+    animation: lol 3s 100ms infinite ease-in-out;
+  }
+
+  .cs-loader-inner label:nth-child(4) {
+    -webkit-animation: lol 3s 200ms infinite ease-in-out;
+    animation: lol 3s 200ms infinite ease-in-out;
+  }
+
+  .cs-loader-inner label:nth-child(3) {
+    -webkit-animation: lol 3s 300ms infinite ease-in-out;
+    animation: lol 3s 300ms infinite ease-in-out;
+  }
+
+  .cs-loader-inner label:nth-child(2) {
+    -webkit-animation: lol 3s 400ms infinite ease-in-out;
+    animation: lol 3s 400ms infinite ease-in-out;
+  }
+
+  .cs-loader-inner label:nth-child(1) {
+    -webkit-animation: lol 3s 500ms infinite ease-in-out;
+    animation: lol 3s 500ms infinite ease-in-out;
+  }
+
+  </style>
 
   <!-- add to homescreen for ios -->
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
 </head>
 
-<body>
+<body style="text-align: center">
+  <img class="image animated zoomInUp" src="assets/imgs/Picture1.png" width="100%" style="position:fixed;width:100%;height: 100%;top:0px;left:0px" alt="logo">
+  <img class="image animated zoomInUp" src="assets/imgs/logo.png" width="30%" style="top:30%; left:35%; display:inline-block; position: absolute;" alt="logo">
+
+  <div class="cs-loader">
+    <div class="cs-loader-inner">
+      <label>●</label>
+      <label>●</label>
+      <label>●</label>
+      <label>●</label>
+      <label>●</label>
+      <label>●</label>
+    </div>
+  </div>
   <app-root></app-root>
 </body>
 
