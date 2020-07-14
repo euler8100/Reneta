@@ -1,0 +1,56 @@
+[
+    {
+      "name":"Produit 1",
+      "price":"$ 44",
+      "description":"Ad dolor amet mollit culpa dolore mollit nisi est cillum anim do irure incididunt sint ut excepteur ea in ut.",
+      "loves":false,
+      "added":false,
+      "hidd_description":true,
+      "image":"assets/imgs/bg-lanches.jpg"
+    },
+    {
+      "name":"Produit 2",
+      "price":"€ 30",
+      "description":"Ad dolor amet mollit culpa dolore mollit nisi est cillum anim do irure incididunt sint ut excepteur ea in ut.",
+      "loves":false,
+      "added":false,
+      "hidd_description":true,
+      "image":"assets/imgs/bg-sobremesas.jpg"
+    },
+    {
+      "name":"Produit 3",
+      "price":"€ 20",
+      "description":"Ad dolor amet mollit culpa dolore mollit nisi est cillum anim do irure incididunt sint ut excepteur ea in ut.",
+      "loves":false,
+      "added":false,
+      "hidd_description":true,
+      "image":"assets/imgs/bg-sucos.jpg"
+    },
+    {
+      "name":"Produit 4",
+      "price":"$ 45",
+      "description":"Ad dolor amet mollit culpa dolore mollit nisi est cillum anim do irure incididunt sint ut excepteur ea in ut.",
+      "loves":false,
+      "added":false,
+      "hidd_description":true,
+      "image":"assets/imgs/bg-lanches.jpg"
+    },
+    {
+      "name":"Produit 5",
+      "price":"€ 30",
+      "description":"Ad dolor amet mollit culpa dolore mollit nisi est cillum anim do irure incididunt sint ut excepteur ea in ut.",
+      "loves":false,
+      "added":false,
+      "hidd_description":true,
+      "image":"assets/imgs/bg-sobremesas.jpg"
+    },
+    {
+      "name":"Produit 6",
+      "price":"€ 20",
+      "description":"Ad dolor amet mollit culpa dolore mollit nisi est cillum anim do irure incididunt sint ut excepteur ea in ut.",
+      "loves":false,
+      "added":false,
+      "hidd_description":true,
+      "image":"assets/imgs/bg-sucos.jpg"
+    }
+  ]

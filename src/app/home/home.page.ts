@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { AlertController } from '@ionic/angular';
+import List_product from '../../assets/json/list_product.json';
 
 @Component({
   selector: 'app-home',
@@ -10,62 +11,7 @@ export class HomePage {
 
   total_panier=0
 
-  list_product=[
-    {
-      name:"Produit 1",
-      price:"$ 45",
-      description:"Ad dolor amet mollit culpa dolore mollit nisi est cillum anim do irure incididunt sint ut excepteur ea in ut.",
-      loves:false,
-      added:false,
-      hidd_description:true,
-      image:"assets/imgs/bg-lanches.jpg"
-    },
-    {
-      name:"Produit 2",
-      price:"€ 30",
-      description:"Ad dolor amet mollit culpa dolore mollit nisi est cillum anim do irure incididunt sint ut excepteur ea in ut.",
-      loves:false,
-      added:false,
-      hidd_description:true,
-      image:"assets/imgs/bg-sobremesas.jpg"
-    },
-    {
-      name:"Produit 3",
-      price:"€ 20",
-      description:"Ad dolor amet mollit culpa dolore mollit nisi est cillum anim do irure incididunt sint ut excepteur ea in ut.",
-      loves:false,
-      added:false,
-      hidd_description:true,
-      image:"assets/imgs/bg-sucos.jpg"
-    },
-    {
-      name:"Produit 4",
-      price:"$ 45",
-      description:"Ad dolor amet mollit culpa dolore mollit nisi est cillum anim do irure incididunt sint ut excepteur ea in ut.",
-      loves:false,
-      added:false,
-      hidd_description:true,
-      image:"assets/imgs/bg-lanches.jpg"
-    },
-    {
-      name:"Produit 5",
-      price:"€ 30",
-      description:"Ad dolor amet mollit culpa dolore mollit nisi est cillum anim do irure incididunt sint ut excepteur ea in ut.",
-      loves:false,
-      added:false,
-      hidd_description:true,
-      image:"assets/imgs/bg-sobremesas.jpg"
-    },
-    {
-      name:"Produit 6",
-      price:"€ 20",
-      description:"Ad dolor amet mollit culpa dolore mollit nisi est cillum anim do irure incididunt sint ut excepteur ea in ut.",
-      loves:false,
-      added:false,
-      hidd_description:true,
-      image:"assets/imgs/bg-sucos.jpg"
-    },
-  ]
+  list_product=List_product
 
   constructor(public alertController: AlertController) {}
 
